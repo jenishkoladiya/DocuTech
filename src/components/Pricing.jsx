@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const PricingPlans = () => {
+const Pricing = () => {
   const [billingCycle, setBillingCycle] = useState("monthly");
 
   const plans = [
@@ -138,117 +138,5 @@ const PricingPlans = () => {
   );
 };
 
-export default PricingPlans;
+export default Pricing;
 
-
-
-
-
-
-
-
-
-
-// function Pricing() {
-//   const [billingCycle, setBillingCycle] = useState("monthly");
-//   return (
-//     <div className="flex flex-col items-center justify-center min-h-screen p-8">
-//       {/* Title */}
-//       <h2 className="text-2xl md:text-3xl font-bold text-center mb-6">
-//         Pick your plan. We make this part easy too.
-//       </h2>
-
-//       {/* Toggle Switch */}
-//       <div className="flex justify-center mb-8">
-//                 <div className="flex bg-gray-200 rounded-full p-1">
-//                     <button
-//                         className={`px-6 py-2 text-sm font-medium rounded-full transition ${
-//                             billingCycle === "monthly"
-//                                 ? "bg-[#173A66] text-white"
-//                                 : "text-gray-700"
-//                         }`}
-//                         onClick={() => setBillingCycle("monthly")}
-//                     >
-//                         Monthly
-//                     </button>
-//                     <button
-//                         className={`px-6 py-2 text-sm font-medium rounded-full transition ${
-//                             billingCycle === "annually"
-//                                 ? "bg-[#173A66] text-white"
-//                                 : "text-gray-700"
-//                         }`}
-//                         onClick={() => setBillingCycle("annually")}
-//                     >
-//                         Annually
-//                     </button>
-//                 </div>
-//             </div>
-
-
-//       {/* Pricing Cards */}
-//       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8 w-full max-w-5xl">
-//         {/* Free Plan */}
-//         <div className="border border-gray-300 shadow-lg p-6 rounded-lg min-h-[400px] flex flex-col justify-between">
-//           <div>
-//             <h3 className="text-xl font-bold">FREE</h3>
-//             <p className="text-gray-600">
-//               USD <span className="text-3xl font-bold">0</span> /Month
-//             </p>
-//             <span className="inline-block text-xs bg-gray-200 text-gray-600 px-2 py-1 rounded mt-2">
-//               No Credit Card required
-//             </span>
-//             <ul className="mt-4 text-gray-600">
-//               <li>• 5 documents a month</li>
-//               <li>• Activity timeline</li>
-//             </ul>
-//           </div>
-//           <button className="bg-blue-900 text-white w-full py-2 rounded-full mt-6">
-//             Select Plan
-//           </button>
-//         </div>
-
-//         {/* Premium Plan */}
-//         <div className="bg-blue-900 text-white shadow-lg p-6 rounded-lg min-h-[400px] flex flex-col justify-between">
-//           <div>
-//             <h3 className="text-xl font-bold">Premium</h3>
-//             <p className="text-gray-300">
-//               USD <span className="text-3xl font-bold">10</span> /Month
-//             </p>
-//             <ul className="mt-4">
-//               <li>• Unlimited documents</li>
-//               <li>• Unlimited signees</li>
-//               <li>• Activity timeline</li>
-//               <li>• Certificate of completion</li>
-//             </ul>
-//           </div>
-//           <button className="bg-white text-blue-900 w-full py-2 rounded-full mt-6">
-//             Select Plan
-//           </button>
-//         </div>
-
-//         {/* Teams Plan */}
-//         <div className="bg-blue-900 text-white shadow-lg p-6 rounded-lg min-h-[400px] flex flex-col justify-between">
-//           <div>
-//             <h3 className="text-xl font-bold">Teams</h3>
-//             <p className="text-gray-300">
-//               USD <span className="text-3xl font-bold">8</span> /Month per month
-//             </p>
-//             <p className="text-sm text-gray-300">
-//               Minimum total of <span className="font-bold">USD 24/month</span>
-//             </p>
-//             <ul className="mt-4">
-//               <li>• Everything from Premium</li>
-//               <li>• Team management</li>
-//               <li>• Transferable contracts</li>
-//             </ul>
-//           </div>
-//           <p className="text-gray-300 text-sm text-right">Monthly total USD 24</p>
-//           <button className="bg-white text-blue-900 w-full py-2 rounded-full mt-6">
-//             Select Plan
-//           </button>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
-// export default Pricing;

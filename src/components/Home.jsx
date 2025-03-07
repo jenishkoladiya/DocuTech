@@ -2,7 +2,7 @@ import esign from '../assets/Component 1.png';
 import vector from '../assets/Vector.png';
 import vector2 from '../assets/Vector (1).png';
 
-const HeroSection = () => {
+const Home = () => {
     return (
       <section className="text-center py-16">
         <div className="hidden lg:block ellipse-1"></div>
@@ -59,5 +59,5 @@ const HeroSection = () => {
     );
   };
   
-  export default HeroSection;
+  export default Home;
   

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaChevronLeft, FaChevronRight, FaStar } from "react-icons/fa";
 import Profilepic from "../assets/Ellipse 4.png";
 
-const Testimonials = () => {
+const UserReview = () => {
   const testimonials = [
     {
       id: 1,
@@ -123,99 +123,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import { Swiper, SwiperSlide } from "swiper/react";
-// import { Navigation } from "swiper/modules";
-// import "swiper/css";
-// import "swiper/css/navigation";
-// import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
-
-// const testimonials = [
-//   {
-//     id: 1,
-//     image: "https://randomuser.me/api/portraits/women/1.jpg",
-//     text: "Create contracts, agreements & forms in seconds using advanced AI technology",
-//     rating: 5,
-//   },
-//   {
-//     id: 2,
-//     image: "https://randomuser.me/api/portraits/men/2.jpg",
-//     text: "Create contracts, agreements & forms in seconds using advanced AI technology",
-//     rating: 5,
-//   },
-//   {
-//     id: 3,
-//     image: "https://randomuser.me/api/portraits/women/3.jpg",
-//     text: "Create contracts, agreements & forms in seconds using advanced AI technology",
-//     rating: 5,
-//   },
-// ];
-
-// const UserReview = () => {
-//   return (
-//     <div className="w-full py-10 bg-gradient-to-b from-white to-gray-100">
-//       <h2 className="text-center text-2xl font-bold mb-6">
-//         What our users say
-//       </h2>
-//       <div className="relative mx-auto max-w-6xl px-4">
-//         <Swiper
-//           modules={[Navigation]}
-//           navigation={{
-//             nextEl: ".next",
-//             prevEl: ".prev",
-//           }}
-//           spaceBetween={20}
-//           slidesPerView={1}
-//           breakpoints={{
-//             768: { slidesPerView: 2 },
-//             1024: { slidesPerView: 3 },
-//           }}
-//           className="flex justify-center"
-//         >
-//           {testimonials.map((item) => (
-//             <SwiperSlide key={item.id} className="flex justify-center">
-//               <div className="bg-white p-6 rounded-xl shadow-lg text-center w-80 border border-gray-200">
-//                 <div className="relative w-12 h-12 mx-auto mb-2">
-//                   <img
-//                     src={item.image}
-//                     alt="User"
-//                     className="w-12 h-12 rounded-full border-2 border-white shadow-md"
-//                   />
-//                 </div>
-//                 <p className="text-gray-600">{item.text}</p>
-//                 <div className="mt-2 text-yellow-500">
-//                   {"⭐".repeat(item.rating)}
-//                 </div>
-//               </div>
-//             </SwiperSlide>
-//           ))}
-//         </Swiper>
-
-//         {/* Navigation Buttons */}
-//         <button className="prev absolute left-0 top-1/2 transform -translate-y-1/2 bg-[#173A66] text-white p-3 rounded-full shadow-md">
-//           <FaChevronLeft />
-//         </button>
-//         <button className="next absolute right-0 top-1/2 transform -translate-y-1/2 bg-[#173A66] text-white p-3 rounded-full shadow-md">
-//           <FaChevronRight />
-//         </button>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default UserReview;
-
+export default UserReview;
