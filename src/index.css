@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@keyframes textChange {
+    0% {
+      content: "Create";
+    }
+    33% {
+      content: "Sign";
+    }
+    66% {
+      content: "Convert";
+    }
+  }
+  
+  .animate-text-change::after {
+    content: "Create";
+    animation: textChange 6s infinite;
+  }
+
+.ellipse-1 {
+    position: absolute;
+    width: 879px;
+    height: 877px;
+    left: -530px;
+    top: 1930px;
+    @apply z-20;
+  
+    background: #254a76;
+    opacity: 0.5;
+    filter: blur(250px);
+  }
+  
+  .ellipse-2 {
+    position: absolute;
+    width: 480px;
+    height: 877px;
+    left: 879px;
+    top: 1915px;
+    @apply z-20;
+  
+    background: #254a76;
+    opacity: 0.5;
+    filter: blur(250px);
+  }
+  .ellipse-3 {
+    position: absolute;
+    width: 879px;
+    height: 877px;
+    left: -589px;
+    top: 450px;
+    z-index: -1;
+  
+    background: #254a76;
+    opacity: 0.5;
+    filter: blur(250px);
+  }
+  
+  .ellipse-4 {
+    position: absolute;
+    height: 877px;
+    width: 480px;
+    /* left: calc(100% - 879px); */
+    left: 943px;
+  
+    top: 464px;
+    z-index: -1;
+  
+    background: #254a76;
+    opacity: 0.5;
+    filter: blur(250px);
+  }
