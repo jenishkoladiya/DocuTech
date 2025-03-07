@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function DocuTech() {
+export default function Docutech() {
   const [activeTab, setActiveTab] = useState("Trusted by Thousands");
 
   const tabs = [

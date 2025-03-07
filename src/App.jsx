@@ -6,7 +6,7 @@ import Pricing from './components/Pricing'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import Clients from './components/Clients'
-import DocuTech from './components/DocuTech'
+import DocuTech from './components/Docutech'
 import './App.css'
 
 function App() {
@@ -26,6 +26,3 @@ function App() {
 }
 
 export default App
-
-
-// className="min-h-screen bg-gradient-to-b from-[#d9e9f9] to-white"
