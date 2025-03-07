@@ -52,7 +52,7 @@ const Home = () => {
         </div>
 
         <div className="flex justify-center items-center">
-            <div className="w-[704vh] h-[90vh] max-w-screen-md mx-auto bg-white rounded-2xl mt-10 shadow-lg shadow-pink-300 border-black border-[2px] p-2">
+            <div className="w-[704vh] h-[90vh] max-w-screen-md mx-auto bg-white rounded-2xl mt-10 shadow-lg shadow-pink-300 border-black border-[1px] p-2">
             </div>
         </div>
       </section>

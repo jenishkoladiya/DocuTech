@@ -8,14 +8,14 @@ const Navbar = () => {
         <h1 className="text-2xl font-bold text-blue-900">DocuTech</h1>
       </div>
       <ul className="flex space-x-6 ml-60 text-gray-700 text-[17px]">
-        <li className="cursor-pointer">Features</li>
-        <li className="cursor-pointer">Why Choose Us</li>
-        <li className="cursor-pointer">Pricing</li>
-        <li className="cursor-pointer">FAQ</li>
+        <li className="cursor-pointer"><a href="#features">Features</a></li>
+        <li className="cursor-pointer"><a href="#why-choose-us">Why Choose Us</a></li>
+        <li className="cursor-pointer"><a href="#pricing">Pricing</a></li>
+        <li className="cursor-pointer"><a href="#faq">FAQ</a></li>
       </ul>
       <div className="flex justify-between items-center gap-6">
         <img src={Socials} className="ml-50 cursor-pointer"/>
-        <button className="bg-blue-700 text-white px-4 py-2 cursor-pointer rounded-lg">Get Started</button>
+        <button className="bg-[#173A66] text-white px-4 py-2 cursor-pointer rounded-lg">Get Started</button>
       </div>
     </nav>
   );

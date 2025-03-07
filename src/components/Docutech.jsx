@@ -11,7 +11,7 @@ export default function Docutech() {
   ];
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-8">
+    <div className="flex flex-col items-center justify-center min-h-screen p-8" id="why-choose-us">
       {/* Title */}
       <h2 className="text-2xl md:text-3xl z-30 font-bold text-center mb-6">
         Why Choose Docutech
@@ -20,7 +20,7 @@ export default function Docutech() {
       {/* Content Wrapper */}
       <div className="flex w-full max-w-5xl">
         {/* Left Tabs */}
-        <div className="flex flex-col gap-4 z-30 w-1/3">
+        <div className="flex flex-col gap-4 z-30 w-1/3" id="features">
           {tabs.map((tab) => (
             <button
               key={tab}
@@ -37,7 +37,7 @@ export default function Docutech() {
         </div>
 
         {/* Right Content Box */}
-        <div className="w-full md:w-[737px] h-[650px] p-8 z-30 bg-white border-gray-900 border-2 rounded-xl ml-6 min-h-[300px]">
+        <div className="w-full md:w-[737px] h-[650px] p-8 z-30 bg-white border-gray-900 border-1 rounded-xl ml-6 min-h-[300px]">
           {/* Content Display (You can add descriptions here) */}
           <p className="text-gray-600">
             {activeTab === "Trusted by Thousands"

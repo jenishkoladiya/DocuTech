@@ -42,7 +42,7 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="max-w-6xl mx-auto py-12 px-4">
+    <div className="max-w-6xl mx-auto py-12 px-4" id="pricing">
       <h2 className="text-center text-2xl font-bold mb-6">
         Pick your plan. We make this part easy too.
       </h2>
